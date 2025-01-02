@@ -31,18 +31,18 @@ public class ApiTestAutomation extends BaseApiTest {
     public void createNewPet() {
         Map<String, Object> petPayload = new HashMap<>();
         petPayload.put("id", petId);
-        petPayload.put("name", "Fluffy");
+        petPayload.put("name", "Cash");
 
         Map<String, Object> category = new HashMap<>();
         category.put("id", 1);
-        category.put("name", "Dogs");
+        category.put("name", "Cat");
         petPayload.put("category", category);
 
         petPayload.put("status", "available");
 
         Response response = methods.postRequest(baseUrl + "/pet", petPayload, getHeaders());
         Assert.assertEquals(200, response.statusCode());
-        Assert.assertEquals("Fluffy", response.jsonPath().getString("name"));
+        Assert.assertEquals("Cash", response.jsonPath().getString("name"));
         Assert.assertEquals("available", response.jsonPath().getString("status"));
     }
 
@@ -51,7 +51,7 @@ public class ApiTestAutomation extends BaseApiTest {
         Response response = methods.getRequest(baseUrl + "/pet/" + petId, getHeaders());
         Assert.assertEquals(200, response.statusCode());
         Assert.assertEquals(petId, (int) response.jsonPath().getInt("id"));
-        Assert.assertEquals("Fluffy", response.jsonPath().getString("name"));
+        Assert.assertEquals("Cash", response.jsonPath().getString("name"));
     }
 
     @Test(priority = 3, description = "Find pets by status - Positive Scenario")
@@ -65,12 +65,12 @@ public class ApiTestAutomation extends BaseApiTest {
     public void updatePet() {
         Map<String, Object> updatedPetPayload = new HashMap<>();
         updatedPetPayload.put("id", petId);
-        updatedPetPayload.put("name", "FluffyUpdated");
+        updatedPetPayload.put("name", "CashUpdated");
         updatedPetPayload.put("status", "sold");
 
         Response response = methods.putRequest(baseUrl + "/pet", updatedPetPayload, getHeaders());
         Assert.assertEquals(200, response.statusCode());
-        Assert.assertEquals("FluffyUpdated", response.jsonPath().getString("name"));
+        Assert.assertEquals("CashUpdated", response.jsonPath().getString("name"));
         Assert.assertEquals("sold", response.jsonPath().getString("status"));
     }
 
