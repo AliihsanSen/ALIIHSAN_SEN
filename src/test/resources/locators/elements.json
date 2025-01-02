@@ -1,0 +1,97 @@
+[
+  {
+    "key": "acceptAllCookiesBtn",
+    "locator": "wt-cli-accept-all-btn",
+    "type": "id"
+  },
+  {
+    "key": "insiderLogo",
+    "locator": "nav#navigation > div.container-fluid > a > img",
+    "type": "css"
+  },
+  {
+    "key": "homePageExperiencesContainer",
+    "locator": "#revamp-cpo",
+    "type": "css"
+  },
+  {
+    "key": "companyMenu",
+    "locator": "//a[@id='navbarDropdownMenuLink' and contains(text(),'Company')]",
+    "type": "xpath"
+  },
+  {
+    "key": "careersSubMenu",
+    "locator": "a[href='https://useinsider.com/careers/']",
+    "type": "css"
+  },
+  {
+    "key": "careersPageHeadSection",
+    "locator": "page-head",
+    "type": "id"
+  },
+  {
+    "key": "careersPageHeadSection",
+    "locator": "page-head",
+    "type": "id"
+  },
+  {
+    "key": "careersPageLocationsSlider",
+    "locator": "div#location-slider > div.glide__track > ul.glide__slides > li",
+    "type": "css"
+  },
+  {
+    "key": "careersPageTeamsSection",
+    "locator": "career-find-our-calling",
+    "type": "id"
+  },
+  {
+    "key": "careersPageLifeAtInsiderSection",
+    "locator": "section[data-id='a8e7b90']",
+    "type": "css"
+  },
+  {
+    "key": "careersPageSeeAllQAJobsBtn",
+    "locator": "a[href='https://useinsider.com/careers/open-positions/?department=qualityassurance']",
+    "type": "css"
+  },
+  {
+    "key": "careersOpenPositionFilterLocation",
+    "locator": "select2-filter-by-location-container",
+    "type": "id"
+  },
+  {
+    "key": "careersOpenPositionFilterLocationResult",
+    "locator": "select2-filter-by-location-results",
+    "type": "id"
+  },
+  {
+    "key": "careersOpenPositionFilterLocationIstanbulTurkey",
+    "locator": "//li[contains(@id, 'Istanbul, Turkey')]",
+    "type": "xpath"
+  },
+  {
+    "key": "careersOpenPositionFilterDepartment",
+    "locator": "select2-filter-by-department-container",
+    "type": "id"
+  },
+  {
+    "key": "careersOpenPositionFilterDepartmentResult",
+    "locator": "select2-filter-by-department-results",
+    "type": "id"
+  },
+  {
+    "key": "careersOpenPositionFilterDepartmentQualityAssurance",
+    "locator": "//li[contains(@id, 'Quality Assurance')]",
+    "type": "xpath"
+  },
+  {
+    "key": "openPositionsCards",
+    "locator": "div[data-team='qualityassurance'] > div",
+    "type": "css"
+  },
+  {
+    "key": "openPositionsCardsDepartment",
+    "locator": "div[data-team='qualityassurance'] > div > span",
+    "type": "css"
+  }
+]
