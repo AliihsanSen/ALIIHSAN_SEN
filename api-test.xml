@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Insider - CaseStudy Api Test Automation">
+    <listeners>
+        <listener class-name="listeners.TestResultListeners"/>
+    </listeners>
     <test name="Api Test">
         <classes>
             <class name="tests.ApiTestAutomation">
