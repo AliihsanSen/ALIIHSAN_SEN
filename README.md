@@ -18,19 +18,32 @@
 
 ## About the Project
 ### 1️⃣ UI - Automation Test Project
-### Framework
 
 ⚡I wrote the automation code using the Java programming language and the Selenium library. <br>
-⚡I utilized the Object-Oriented Programming (OOP) concept along with the Java programming language. <br>
-⚡I used the TestNG framework for UI tests, built on the Page Object Model (POM). <br>
-⚡I paid attention to writing clean code in accordance with SOLID principles. <br>
-⚡I created a configuration.properties file to store reusable data and dynamically accessed this data through the ConfigReader class under the utils package. <br>
-![image](https://github.com/user-attachments/assets/46aa0f45-0ee6-4d3c-9636-053ace3b44f0)
+⚡I used the TestNG framework to organize and execute UI tests efficiently. <br>
+⚡I implemented modular methods in a BaseTest class to enhance code reusability and maintainability. <br>
+⚡I validated web elements dynamically using locators managed through a LocatorManager utility. <br>
+⚡Logging was handled systematically using a LoggingManager to ensure traceability and debugging efficiency. <br>
+⚡Dynamic wait methods were employed to ensure reliable interactions with web elements. <br>
+⚡Positive test scenarios included verifying page navigations, validating visible elements, and applying filters on open job positions. <br>
+⚡I ensured accurate validation of job filters by matching job descriptions, departments, and locations. <br>
+⚡User interactions such as hovering, scrolling, and switching between browser tabs were automated for seamless test coverage. <br>
+![image](https://github.com/user-attachments/assets/cd3c940f-7dc3-4e43-81bc-659cd22ce58a)
 
-### 2️⃣  API - Test Automation  Project
 
+### 2️⃣  API - Test Automation Project
 
+⚡I wrote the automation code using the Java programming language. <br>
+⚡I utilized the RestAssured library for API testing. <br>
+⚡Reusable methods for GET, POST, PUT, and DELETE requests were implemented. <br>
+⚡I validated the API responses by checking status codes and response bodies. <br>
+⚡Dynamic headers and payloads were created for flexibility in testing. <br>
+⚡I handled both positive and negative scenarios, such as creating, retrieving, updating, and deleting pets. <br>
+⚡I used https://petstore.swagger.io/v2 as the Base URL for API requests. <br>
+⚡Helper classes, including BaseApiTest and ApiTestMethods, were developed to enhance code reusability. <br>
+![image](https://github.com/user-attachments/assets/906f5fa7-2eee-4d54-b197-219138ceb145)
 
+### 2️⃣  Load Test Project
 
 
 
