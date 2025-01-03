@@ -14,7 +14,6 @@
 [api]: https://swagger.io/
 [github]: https://github.com/
 
-<hr>
 
 ## About the Project
 ### 1️⃣ UI - Automation Test Project
@@ -28,8 +27,9 @@
 ⚡Positive test scenarios included verifying page navigations, validating visible elements, and applying filters on open job positions. <br>
 ⚡I ensured accurate validation of job filters by matching job descriptions, departments, and locations. <br>
 ⚡User interactions such as hovering, scrolling, and switching between browser tabs were automated for seamless test coverage. <br>
-![image](https://github.com/user-attachments/assets/cd3c940f-7dc3-4e43-81bc-659cd22ce58a)
 
+![image](https://github.com/user-attachments/assets/cd3c940f-7dc3-4e43-81bc-659cd22ce58a)
+<hr>
 
 ### 2️⃣  API - Test Automation Project
 
@@ -41,9 +41,21 @@
 ⚡I handled both positive and negative scenarios, such as creating, retrieving, updating, and deleting pets. <br>
 ⚡I used https://petstore.swagger.io/v2 as the Base URL for API requests. <br>
 ⚡Helper classes, including BaseApiTest and ApiTestMethods, were developed to enhance code reusability. <br>
-![image](https://github.com/user-attachments/assets/906f5fa7-2eee-4d54-b197-219138ceb145)
 
-### 2️⃣  Load Test Project
+![image](https://github.com/user-attachments/assets/906f5fa7-2eee-4d54-b197-219138ceb145)
+<hr>
+
+### 3️⃣  Load Test Project
+
+⚡I used Apache JMeter to create and execute the load test scenarios. <br>
+⚡The test plan, named "Load Test Insider," was designed to simulate user activity on the N11 platform. <br>
+⚡A thread group, titled "N11 - Load Test," was configured to define the number of users and their behavior under load conditions. <br>
+⚡HTTP requests, such as "n11 - Search - Load Test," were crafted to mimic real-world search operations on the platform. <br>
+⚡Key performance metrics, including response time and throughput, were captured during the test execution. <br>
+⚡The load test focused on validating the system's ability to handle concurrent user requests effectively. <br>
+⚡Test results were analyzed to identify potential bottlenecks and ensure scalability under peak loads. <br>
+
+![image](https://github.com/user-attachments/assets/89a7c66c-bd04-4ba3-a8ca-51086f5890f1)
 
 
 
